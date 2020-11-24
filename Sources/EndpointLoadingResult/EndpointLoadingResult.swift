@@ -59,7 +59,7 @@ public enum LoadingResult<T> {
     }
 }
 
-extension Binding {
+public extension Binding {
 
     init<A>(keyPath: ReferenceWritableKeyPath<A, Value>, on obj: A) {
         self.init(
